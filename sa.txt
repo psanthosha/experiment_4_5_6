@@ -12,14 +12,15 @@ int main()
 }
 
 
-//same program using scanf
+//SWAPPING of 2 numbers without using third variable
 #include<stdio.h>
 int main()
 {
-   int a,b,c;
-   printf("Enter the value of A and B\n");
-   scanf("%d%d",&a,&b);
-   c=a+b;
-   printf("RESULT=%d",c);
+  int a=10,b=20;
+  printf("Before swapping A=%d B=%d",a,b);
+  a=a+b;
+  b=a-b;
+  a=a-b;
+  printf("After swapping A=%d B=%d",a,b);
 }
 
